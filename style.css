@@ -1,0 +1,60 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+    .page-wrapper {
+        background-image: url(img/zen-background.jpg);
+    }
+    header {
+        background-image: url(img/zen-header.png);
+        width: 100%;
+        z-index: 1;
+        font-size: 2rem;
+        color: #F5F5DC;
+        background-size: 100%;
+        height: 200px;
+        align-items: center;
+        justify-content: flex-start;
+        
+    }
+    h3 {
+        color: #F5F5DC;
+        border-bottom-color: #F5F5DC;
+    }
+    abbr {
+        color:	#7FFF00;
+    }
+    .wrapper {
+        display: flex;
+    }
+        .wrapper > div {
+            justify-content: space-between;
+            min-height: 300px
+        }
+    section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .preamble {
+        font-family: cursive;
+    }
+    .summary {
+        font-family: fantasy;
+        order: 5;
+    }
+       #zen-suppoting {
+        display: block;
+        width: 60%;
+        float: left;
+    }
+    footer {
+        order: 6;
+    }
+@media screen and (max-width: 500px) {
+    header {
+        display: block;
+        width: auto;
+        background-size: cover;
+    }
+}
